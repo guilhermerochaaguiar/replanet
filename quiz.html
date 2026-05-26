@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Será que você sabe reciclar tecnologia? Faça o Quiz ReplaNET, teste seus conhecimentos sobre sustentabilidade e aprenda a cuidar do planeta.">
+  <meta name="keywords" content="sustentabilidade,descarte,lixo">
+  <meta name="author" content="Guilherme Rocha de Aguiar">
+  
+  <link rel="icon" type="image/png" href="img/nomelegalpraeulembrar.png">
+  
+  <link rel="stylesheet" href="quiz.css">
+  <title>Quiz</title>
+</head>
+<body>
+  <nav>
+  <header>
+    <button id="darkmode">Modo escuro</button>
+    <img src="img/pngsimboloreciclagem.png" alt="Ícone de reciclagem">
+
+    <div>
+      ReplaNET
+      <small>Tecnologia a favor do planeta</small>
+    </div>
+  </header>
+
+  <div class="nav-links">
+    <a href="index.html">Início</a>
+    <a href="lixoeletro.html">Lixo Eletrônico</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="https://www.google.com/maps/search/pontos+de+coleta+de+lixo+eletronico+proximo/" target="_blank">
+      Pontos de coleta
+    </a>
+    <a href="sobre.html">Sobre nós</a>
+  </div>
+</nav>
+  <main class="quiz">
+
+  <section class="quiz-topo">
+    <h1>Como você lida com o seu lixo eletrônico?</h1>
+
+    <p>
+      Descubra como seus hábitos impactam o meio ambiente e veja
+      qual é o seu perfil sustentável.
+    </p>
+
+    <div class="progresso-container">
+      <div class="progresso-barra" id="progressobar"></div>
+    </div>
+
+    <p id="progresso-texto">0 de 10 perguntas respondidas</p>
+  </section>
+
+  <section>
+  <h2>1. O que você faz com aquele celular ou notebook antigo que não usa mais, mas ainda funciona?</h2>
+
+  <form>
+    <input type="radio" id="p1a" name="p1" value="1">
+    <label for="p1a">Deixo acumulando em casa.</label>
+
+    <input type="radio" id="p1b" name="p1" value="3">
+    <label for="p1b">Vendo, doo ou entrego em programas de troca.</label>
+
+    <input type="radio" id="p1c" name="p1" value="0">
+    <label for="p1c">Jogo no lixo comum.</label>
+
+    <input type="radio" id="p1d" name="p1" value="2">
+    <label for="p1d">Uso para outra função simples, como guardar arquivos ou dar para uma criança.</label>
+  </form>
+</section>
+
+<section>
+  <h2>2. Quando um cabo ou carregador quebra, qual é o destino dele?</h2>
+
+  <form>
+    <input type="radio" id="p2a" name="p2" value="0">
+    <label for="p2a">Vai para o lixo comum.</label>
+
+    <input type="radio" id="p2b" name="p2" value="2">
+    <label for="p2b">Guardo em uma caixa.</label>
+
+    <input type="radio" id="p2c" name="p2" value="3">
+    <label for="p2c">Levo para descarte eletrônico.</label>
+
+    <input type="radio" id="p2d" name="p2" value="1">
+    <label for="p2d">Jogo na reciclagem comum.</label>
+  </form>
+</section>
+
+<section>
+  <h2>3. Como você descartaria pilhas ou baterias inchadas?</h2>
+
+  <form>
+    <input type="radio" id="p3a" name="p3" value="2">
+    <label for="p3a">Pesquisaria um local correto.</label>
+
+    <input type="radio" id="p3b" name="p3" value="0">
+    <label for="p3b">Jogaria no lixo comum.</label>
+
+    <input type="radio" id="p3c" name="p3" value="3">
+    <label for="p3c">Levaria em um ponto de coleta.</label>
+
+    <input type="radio" id="p3d" name="p3" value="1">
+    <label for="p3d">Guardaria em casa.</label>
+  </form>
+</section>
+
+<section>
+  <h2>4. Quantos eletrônicos antigos você tem guardados?</h2>
+
+  <form>
+    <input type="radio" id="p4a" name="p4" value="2">
+    <label for="p4a">Entre 2 e 4.</label>
+
+    <input type="radio" id="p4b" name="p4" value="0">
+    <label for="p4b">Mais de 10.</label>
+
+    <input type="radio" id="p4c" name="p4" value="3">
+    <label for="p4c">Nenhum ou apenas 1.</label>
+
+    <input type="radio" id="p4d" name="p4" value="1">
+    <label for="p4d">Entre 5 e 10.</label>
+  </form>
+</section>
+
+<section>
+  <h2>5. Quando você troca de celular ou computador?</h2>
+
+  <form>
+    <input type="radio" id="p5a" name="p5" value="1">
+    <label for="p5a">Quando aparece uma boa promoção.</label>
+
+    <input type="radio" id="p5b" name="p5" value="3">
+    <label for="p5b">Somente quando não há mais solução.</label>
+
+    <input type="radio" id="p5c" name="p5" value="0">
+    <label for="p5c">Quase todo ano.</label>
+
+    <input type="radio" id="p5d" name="p5" value="2">
+    <label for="p5d">Quando fica muito lento.</label>
+  </form>
+</section>
+
+<section>
+  <h2>6. Como você descarta brinquedos ou controles com pilha?</h2>
+
+  <form>
+    <input type="radio" id="p6a" name="p6" value="0">
+    <label for="p6a">Vai inteiro para o lixo comum.</label>
+
+    <input type="radio" id="p6b" name="p6" value="3">
+    <label for="p6b">Separo tudo corretamente.</label>
+
+    <input type="radio" id="p6c" name="p6" value="1">
+    <label for="p6c">Jogo na reciclagem comum.</label>
+
+    <input type="radio" id="p6d" name="p6" value="2">
+    <label for="p6d">Descarto só as pilhas corretamente.</label>
+  </form>
+</section>
+
+<section>
+  <h2>7. O que você faz quando um eletrônico caro quebra?</h2>
+
+  <form>
+    <input type="radio" id="p7a" name="p7" value="1">
+    <label for="p7a">Deixo parado em casa.</label>
+
+    <input type="radio" id="p7b" name="p7" value="3">
+    <label for="p7b">Tento consertar.</label>
+
+    <input type="radio" id="p7c" name="p7" value="2">
+    <label for="p7c">Procuro descarte correto.</label>
+
+    <input type="radio" id="p7d" name="p7" value="0">
+    <label for="p7d">Jogo fora.</label>
+  </form>
+</section>
+
+<section>
+  <h2>8. Como você escolhe acessórios eletrônicos?</h2>
+
+  <form>
+    <input type="radio" id="p8a" name="p8" value="2">
+    <label for="p8a">Busco equilíbrio entre preço e qualidade.</label>
+
+    <input type="radio" id="p8b" name="p8" value="0">
+    <label for="p8b">Compro vários descartáveis.</label>
+
+    <input type="radio" id="p8c" name="p8" value="3">
+    <label for="p8c">Prefiro produtos duráveis.</label>
+
+    <input type="radio" id="p8d" name="p8" value="1">
+    <label for="p8d">Compro os mais baratos.</label>
+  </form>
+</section>
+
+<section>
+  <h2>9. Qual é a sua relação com a logística reversa (devolver aparelhos e componentes velhos aos fabricantes ou pontos de coleta)?</h2>
+
+  <form>
+    <input type="radio" id="p9a" name="p9" value="1">
+    <label for="p9a">Nunca tinha ouvido falar ou pensado sobre isso.</label>
+
+    <input type="radio" id="p9b" name="p9" value="3">
+    <label for="p9b">Participo sempre que possível.</label>
+
+    <input type="radio" id="p9c" name="p9" value="0">
+    <label for="p9c">Prefiro deixar meus aparelhos antigos guardados em casa.</label>
+
+    <input type="radio" id="p9d" name="p9" value="2">
+    <label for="p9d">Acho legal, mas esqueço.</label>
+  </form>
+</section>
+
+<section>
+  <h2>10. Qual frase define melhor sua consciência ambiental?</h2>
+
+  <form>
+    <input type="radio" id="p10a" name="p10" value="0">
+    <label for="p10a">Quase nunca penso nisso.</label>
+
+    <input type="radio" id="p10b" name="p10" value="2">
+    <label for="p10b">Quero melhorar, mas tenho dificuldade.</label>
+
+    <input type="radio" id="p10c" name="p10" value="3">
+    <label for="p10c">Mudo meus hábitos para poluir menos.</label>
+
+    <input type="radio" id="p10d" name="p10" value="1">
+    <label for="p10d">Acho meu impacto pequeno.</label>
+  </form>
+</section>
+
+<section class="resultado-section">
+  <button id="finalizarquiz">Ver resultado</button>
+
+  <div id="resultado"></div>
+</section>
+
+</main>
+  <script src="app.js"></script>
+    
+</body>
+</html>
